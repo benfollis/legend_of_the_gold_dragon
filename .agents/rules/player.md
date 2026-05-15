@@ -11,6 +11,11 @@ To advance from level 1 to 2 takes 1000 experience
 
 A player may level up by reaching the required experience and undergoing a ritual at the training hall.
 
+Leveling up does the following
+1. increases hit points by 25%
+2. increases unarmed (base) attack by 100
+3. increases unarmored (base) defense by 100
+
 
 ## Hit points and Stamina
 
@@ -22,8 +27,14 @@ Hit points are reduced by an opponents attack, and replenished by a healer or ot
 Stamina represents the number of actions a player can take without being fatigued.
 When stamina reaches 0, then the user's attack and defense decrease by 50%, and decrease by 5% per action.
 Stamina is replenished by sleeping with 12% of the players stamina returned by sleeping per wall clock hour
+
 Stamina may also be replenished by in game special events.
 
+### Sleeping
+A player may chose to sleep in their current location by hiding, however if they do so they will experience a random chance of being attacked by a monster or a brigand.
+If attacked in this manner the opponent gets a 50% chance to make a free first attack at double damange.
+
+If sleeping in the inn, the player may not be attacked unless the door is unlocked, but the player will always wake up to the door opening and will not suffer a first attack penalty.
 
 ## Actions
 Actions that consume one stamina are as follows
@@ -33,8 +44,6 @@ Actions that consume one stamina are as follows
 4) Moving one kilometer along a forest path
 5) Fighting one round with an opponent
 
-
-A player starts with 100 stamina at level 1. Leveling up does not increase stamina.
 
 
 ## Stats
@@ -61,4 +70,13 @@ There are other stats that effect non combat actions
 3 Charm
 3.1 Ranges from 1-infinity, starting at 1
 3.2 effects the chance of a favorible outcome when interacting with NPCs.
+
+
+# Death
+When a player is defeated in combat and dies, the following will happen
+1. All on hand gold will be lost
+2. 10% of experienc will be lost.
+3. The player will lose all stamina
+4. The player will be prevented from entering the game for 24 hrs.
+On the next enterance to the game the player will start in the town center of the last town they were in.
 

@@ -14,7 +14,8 @@ All towns have the following things
 
 1. An armor shop
 1. A weapon shop
-1. An areana where gladiators may be fought and bets may be placed
+1. A potion shop
+1. An arena where gladiators may be fought and bets may be placed
 1. A training center
 1. A bank branch where money can be deposited and withdrawn.
 1. A tavern with an attached inn.
