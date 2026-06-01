@@ -38,11 +38,11 @@ If sleeping in the inn, the player may not be attacked unless the door is unlock
 
 ## Actions
 Actions that consume one stamina are as follows
-1) Moving one kilometer along a road.
-2) Entering the forest
-3) Leaving the forest and entering a town
-4) Moving one kilometer along a forest path
-5) Fighting one round with an opponent
+1) Moving one kilometer along a road (reduced to 0.1 stamina if riding an owned horse).
+2) Entering the forest.
+3) Leaving the forest and entering a town.
+4) Moving one kilometer along a forest path (reduced to 0.1 stamina if riding an owned horse).
+5) Fighting one round with an opponent.
 
 
 
