@@ -8,10 +8,17 @@ armor per day. The armor smith may once every week or so produce very high quali
 
 Armor smiths have an apprentice who may also be selling low quality armor. These are practice pieces so many are produced per day.
 
-Low quality armor is cheap.
-Noderate quality armor is affordable for mid level players
-High quality and very high quality is very very expensive and may only be afforded by rich players
+## Armor Inventory Database
+The following standard armor items can be found across civilized towns (subject to availability by the smith's daily craft rotation):
 
+| Item Name | Quality | Stat Bonus (+Defense) | Purchase Cost (Gold) | Sell Value (Gold) | Unique Properties |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tattered Clothes** | Low | +5 | 40 | 20 | Practice apprentice work; very common. |
+| **Leather Armor** | Moderate | +35 | 1,200 | 600 | Good standard mid-level armor. |
+| **Chain Mail** | High | +120 | 12,000 | 6,000 | Heavy, reliable, high-tier armor. |
+| **Full Plate** | High | +250 | 40,000 | 20,000 | Elite plate armor; expensive. |
+| **Dragon Scale** | Very High (Magical) | +500 | 110,000 | 55,000 | Legendary; increases max HP by 25%. |
 
-
-An armor shop may also commision quests for new armor materials, the reward for which is money. The player fulfilling the request has the opportunity to buy the
+## Quest Commissions
+An armor shop may also commission quests for rare armor materials (e.g., harvesting monster hides from the forest).
+* **Rewards:** Completing these quests rewards the player with a gold bounty and the exclusive opportunity to purchase the crafted item at a 20% discount.
