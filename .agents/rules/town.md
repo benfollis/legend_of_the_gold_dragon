@@ -32,9 +32,8 @@ The mayor must pay the town guard otherwise they will desert and he will have no
 The mayor must pay a protection fee to the golden dragon of 50% of their tax revenue with a minimum of 10000 gold per day. If the player does not do not pay, the golden dragon may visit the town, and kill all players within, including the mayor.
 If the golden dragon wipes the town, they install a new mayor who is again a young dragon NPC.
 The golden dragon will neer raze a town ruled over by a young dragon NPC
-
-
-The mayor may declare a character persona non grata, and they may not enter the town. If they do and they encounter the town guard, the guard will attack them.
+The mayor gets a 50% rake of all casino profits
+ not enter the town. If they do and they encounter the town guard, the guard will attack them.
 
 The mayor gets right of first refusal to all equipment produced by any shop in the town.
 They may also sleep with prostitutes for free.
@@ -42,4 +41,7 @@ They may also sleep with prostitutes for free.
 A mayor may declair war upon another town. If the the battle is sucessful, the mayor takes contrl of that town and assumes all of the rights and responsibilties.
 
 The mayor also is able to automatially complete a princess quest by sending the town guard to complete the quest.
+
+#forest town
+This is a town at the center of the forest. To reach this town. Getting to this town is a arduous task. This town contains all necessary materials required for armor and weapon quests at a cost.. Encircling this town are mining camps that supply the necessary matirals for the town. The player can explore these camps to gather materials. However the player will experience the hardships of fighiting monsters, as well a consuming.a higher amount of stamina. This is a dangerous task that involves great risk to the player.
 
