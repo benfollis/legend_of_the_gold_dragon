@@ -11,3 +11,7 @@ The Quest Board is located in the town square and displays active requests poste
 * **Quest Rewards:**
   * Fulfilling a quest rewards the player with a high gold bounty and bonus experience.
   * Rare quests may also reward players with high-quality consumables or armor/weapon blueprints.
+
+## QUEST BOARD
+Princess quest is a quest in which the player needs to rescue a princess. This could be from a castle, dungeon or area of the forest. During this quest the player may encounter numeros fights with monsters, or guards of a town. If the player is the mayor of the town, this quest is automaically completed.
+

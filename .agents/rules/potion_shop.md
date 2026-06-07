@@ -28,3 +28,4 @@ $$\text{Potion Cost} = \text{Math.floor}\left(\text{Base\_Cost} \times L_{\text{
 | **Defense Potion** | Base Defense **+1** | 500g | 100 | $\text{Cost} = \lfloor 500 \times L_{\text{player}} \times (1 + \frac{\text{Defense}_{\text{current}}}{100}) \rfloor$ |
 | **Stamina Potion** | Max Stamina **+1** | 300g | 50 | $\text{Cost} = \lfloor 300 \times L_{\text{player}} \times (1 + \frac{\text{Stamina}_{\text{max}}}{50}) \rfloor$ |
 
+Potions have different levels of regenerative effects, based on 3 levels - basic, standard, and strong. 

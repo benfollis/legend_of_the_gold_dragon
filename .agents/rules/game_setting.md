@@ -33,18 +33,3 @@ All towns in the game are connected by defined roads and forest paths, but playe
 * **The Secret Town Forest (Aethelwood):**
   Aethelwood is a mystical hidden forest town. It cannot be reached by normal roads. To find it, a player must reach a Deep Forest depth of `15` or higher, which grants a **5% chance per explore action** of discovering the canopy entrance leading inside.
 
-## 🏛️ Civilized Towns
-All towns have the following things:
-
-1. **An armor shop** (Master smith daily good/high, weekly magical gear + apprentice low-quality pieces).
-2. **A weapon shop** (Identical to armor shop but for offensive weapons).
-3. **A potion shop** (Selling Detox, Health, and Stamina potions).
-4. **An arena** (Fight gladiators for gold, and place bets on running gladiator matches).
-5. **A training center** (Undergo the level-up ritual once sufficient experience is earned).
-6. **A bank branch** (Store gold safely away from death penalties; earns 1% daily interest up to a 1,000 gold cap).
-7. **A tavern and inn** (Rent rooms for safe logout and stamina replenishment, buy drinks, bribe bartender for keys, or solicit prostitutes).
-8. **A stable** (Purchase horses to reduce travel stamina costs to 1/10th on roads and paths).
-9. **A healer's shop** (Replenish missing HP for a fee of 2 gold per HP).
-10. **A quest board** (Fulfill bounty or material collection quests commissioned by local nobles for gold/item rewards).
-
-This is a dangerous and untamed society. Roving brigands seek to prey on the weak, and the Dark Forest is filled with beasts. Ensure you are well-equipped before venturing forth!

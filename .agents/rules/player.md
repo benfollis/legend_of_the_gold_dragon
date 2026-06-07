@@ -70,6 +70,8 @@ There are other stats that effect non combat actions
 
 2 Stamina
 2.1 ranges from 1 - 1000 starting at 100. Represents the maximum amount of stamina the player can have.
+2.2 for every day that you consume at least 50% of your stamina you gain 1 stamina point
+2.3 For every day that you don't consume at least of your stamina, you lose 1 stamina point
 
 3 Charm
 3.1 Ranges from 1-infinity, starting at 1
