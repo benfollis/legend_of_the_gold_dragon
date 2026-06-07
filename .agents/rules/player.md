@@ -34,38 +34,44 @@ Stamina may also be replenished by in game special events.
 A player may chose to sleep in their current location by hiding, however if they do so they will experience a random chance of being attacked by a monster or a brigand.
 If attacked in this manner the opponent gets a 50% chance to make a free first attack at double damange.
 
-If sleeping in the inn, the player may not be attacked unless the door is unlocked, but the player will always wake up to the door opening and will not suffer a first attack penalty.
+If sleeping in the inn, the player may not be attacked unless the door is unlocked (which occurs if another player bribes the bartender for a room key). If attacked in their inn room, the player will always wake up to the door opening and will not suffer a first attack penalty. The combat is resolved as a standard turn-based PvP fight (with the sleeping player's actions simulated based on their current stats and equipment).
 
 ## Actions
 Actions that consume one stamina are as follows
-1) Moving one kilometer along a road.
-2) Entering the forest
-3) Leaving the forest and entering a town
-4) Moving one kilometer along a forest path
-5) Fighting one round with an opponent
+1) Moving one kilometer along a road (reduced to 0.1 stamina if riding an owned horse).
+2) Entering the forest.
+3) Leaving the forest and entering a town.
+4) Moving one kilometer along a forest path (reduced to 0.1 stamina if riding an owned horse).
+5) Fighting one round with an opponent.
 
 
 
 ## Stats
 ### Combat Stats
 There are two basic combat stats for the player, defense, and attack.
-The damage an opponents attack does to the players hit points is reduced by their defense stat.
-The amount of damage the player does to their opponent is their attack stat
+The damage an opponents attack does to the players hit points is calculated using the following formula:
 
-Weapons add a weapon specific value to the players attack stat
-Armor adds an armor specific value to the players defense stack
+`Damage = max(0, Math.floor((Attack - Defense) * Random_Variance))`
+
+* **Random_Variance:** A randomly rolled decimal float between `0.85` and `1.15` inclusive.
+* **Zero Damage:** If the defender's defense is high enough relative to the attacker's attack, the calculated damage will be `0` (it does not default to a minimum of 1).
+
+Weapons add a weapon specific value to the players attack stat.
+Armor adds an armor specific value to the players defense stat.
 
 
 ### Non Combat stats
 There are other stats that effect non combat actions
 
 1 Luck
-1.1 ranges from 1 - 1000, starting at 1 with 1000 representing a probability of 1.
-1.2 Effects the chance of aquiring double gold from killing a monster
-1.2 effects the chance of landing a double damage strike on an opponent
+1.1 ranges from 1 - 1000, starting at 1.
+1.2 Effects the chance of acquiring double gold from killing a monster (probability is evaluated as `Luck / 1000`).
+1.3 Effects the chance of landing a double damage strike on an opponent (probability is evaluated as `Luck / 1000`).
 
 2 Stamina
 2.1 ranges from 1 - 1000 starting at 100. Represents the maximum amount of stamina the player can have.
+2.2 for every day that you consume at least 50% of your stamina you gain 1 stamina point
+2.3 For every day that you don't consume at least of your stamina, you lose 1 stamina point
 
 3 Charm
 3.1 Ranges from 1-infinity, starting at 1
